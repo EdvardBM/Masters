@@ -45,12 +45,13 @@ clflush size	: 64
 cache_alignment	: 64
 address sizes	: 39 bits physical, 48 bits virtual
 ```
+Note: No Avx or Avx2 under flags. According to intels webpage Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz should be able to have AVX2 and AVX512
+
+Trying to enable AVX2 by disabling Hyper-V (the turtle lower right corner). https://stackoverflow.com/questions/65780506/how-to-enable-avx-avx2-in-virtualbox-6-1-16-with-ubuntu-20-04-64bit
 
 
 
-|My machine  | Requirements
-|------------- | -------------
-Model name|Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz  | --
-|Content Cell  | Content Cell
+
+
 
 
