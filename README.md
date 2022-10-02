@@ -51,10 +51,10 @@ Trying to enable AVX2 by disabling Hyper-V (the turtle lower right corner) accor
 
 1. Open Command Prompt in Windows Host as Adm.
 2. Disabel Hypervisor launch ``` bcdedit /set hypervisorlaunchtype off```
-3. Shutdown
+3. Shutdown ```shutdown -s -t 2```
 4. Wait a few seconds before starting the computer
 
-Note: I did not have to Disable Microsoft Hyper-V after disabling Hypervisor launch. 
+Note: I did not have to Disable Microsoft Hyper-V /```DISM /Online /Disable-Feature:Microsoft-Hyper-V```  after disabling Hypervisor launch. 
 
 This worked and the error disappeared.
 
